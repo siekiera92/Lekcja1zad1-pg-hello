@@ -20,3 +20,14 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function myInfo() {
+
+	info =  'Jan Kowalski' + '\n' +
+			'Kraków' + '\n' +
+			'ul. Zajebistości 1/1' + '\n' + 
+			'aaa@aaa.pl: ' + '\n';
+
+	navigator.notification.alert(info);
+	
+}
